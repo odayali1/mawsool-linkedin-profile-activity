@@ -1,0 +1,84 @@
+{
+  "actorSpecification": 1,
+  "title": "LinkedIn Profile Activity Scraper",
+  "description": "One result row. A URL is charged once even when it produces several rows.",
+  "fields": {
+    "type": "object",
+    "properties": {
+      "inputUrl": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "inputUrl"
+      },
+      "fullName": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "fullName"
+      },
+      "headline": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "headline"
+      },
+      "activityCount": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "title": "activityCount"
+      },
+      "interaction": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "interaction"
+      },
+      "title": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "title"
+      },
+      "link": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "title": "link"
+      },
+      "success": {
+        "type": "boolean",
+        "title": "success"
+      }
+    }
+  },
+  "views": {
+    "flat": {
+      "title": "Flat results",
+      "transformation": {
+        "fields": [
+          "inputUrl",
+          "fullName",
+          "headline",
+          "activityCount",
+          "interaction",
+          "title",
+          "link",
+          "success"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {}
+      }
+    }
+  }
+}
