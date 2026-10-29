@@ -1,0 +1,26 @@
+# LinkedIn Activity Scraper
+
+> Send a profile URL you already have. You get recent likes, comments, and post links you can use to personalize outreach.
+
+Mawsool publishes this as an Apify Actor. Starting from $0.45 per 1,000 profiles.
+
+## Run
+
+- Apify Actor: https://apify.com/oday/mawsool-linkedin-profile-activity
+- Call: `oday/mawsool-linkedin-profile-activity`
+- API key: https://mawsool.tech/ and https://docs.mawsool.tech/
+- Contact: osama@mawsool.tech, info@mawsool.tech
+
+## Use it when
+
+You want something the person just did, before you write.
+
+## Use something else when
+
+You want the job history or the full profile. Use the Experience Scraper or the LinkedIn Profile Scraper.
+
+## Page
+
+- LinkedIn likes, comments, and posts from a profile URL: docs/linkedin-profile-activity.md
+
+Mawsool is not affiliated with LinkedIn.
